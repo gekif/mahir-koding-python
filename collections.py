@@ -40,3 +40,28 @@ list_example_5.extend(list_example_6)
 list_example_5.sort()
 list_example_5.reverse()
 print(list_example_5)
+
+print("\n")
+tuple_example = (42, 'Python', 3.85, 50)
+print(tuple_example)
+print(tuple_example[1])
+print(tuple_example[-2])
+
+print("\n")
+customer = {
+    'name': 'Alice',
+    'age': 30,
+    'city': 'New York'
+}
+print(customer)
+print(customer['name'])
+
+print("\n")
+numbers1 = {1, 2, 3, 4, 5}
+numbers2 = {4, 5, 6, 7, 8}
+union_set = numbers1.union(numbers2)
+intersection_set = numbers1.intersection(numbers2)
+difference = numbers1.difference(numbers2)
+print("Union:", union_set)
+print("Intersection:", intersection_set)
+print("Difference:", difference)
